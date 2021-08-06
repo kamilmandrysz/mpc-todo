@@ -1,0 +1,45 @@
+@import 'Styles/partials/_variables';
+
+.Tasks {
+  background-color: tc('foreground', 'light');
+  border-color: tc('foreground', 'dark');
+  border-style: solid;
+  border-width: 0 calcrem(1px) calcrem(1px) calcrem(1px);
+  border-bottom-left-radius: calcrem(5px);
+  border-bottom-right-radius: calcrem(5px);
+}
+
+.Tasks___line {
+  position: absolute;
+  border-right: 1px solid tc('foreground', 'lightRed');
+  top: 0;
+  height: 100%;
+
+  &:first-of-type {
+    left: calcrem(60px);
+  }
+
+  &:last-of-type {
+    left: calcrem(63px);
+  }
+}
+
+.Tasks___bottom {
+  z-index: -1;
+  position: absolute;
+  height: 50px;
+  width: 99%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: tc('foreground', 'light');
+  border: calcrem(1px) solid tc('foreground', 'dark');
+  border-radius: calcrem(5px);
+  bottom: -5px;
+
+  &:last-of-type {
+    z-index: -2;
+    width: 97%;
+    bottom: -9px;
+  }
+}

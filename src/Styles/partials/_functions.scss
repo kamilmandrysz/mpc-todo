@@ -1,0 +1,13 @@
+@import 'Styles/themes/_default';
+
+// usage: background-color: tc('accent', 'base');
+@function tc($key, $variant) {
+  $map: map-get($theme-colors, $key);
+  @return map-get($map, $variant);
+}
+
+// Function for converting a px based font-size to rem.
+@function calcrem($size) {
+  $remSize: $size / 16px;
+  @return #{$remSize}rem;
+}

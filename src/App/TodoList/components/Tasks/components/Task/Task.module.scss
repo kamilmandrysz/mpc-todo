@@ -1,0 +1,24 @@
+@import 'Styles/partials/_variables';
+
+.Task {
+  border-top: 1px solid tc('foreground', 'light1');
+
+  &:first-of-type {
+    border-top: 1px dotted tc('foreground', 'light1');
+  }
+}
+
+.Task__checkbox {
+  margin-right: calcrem(20px);
+}
+
+.Task__label__wrapper {
+  display: contents;
+}
+
+.Task__label__done {
+  width: calc(100%);
+  transition: 250ms;
+  text-decoration: line-through;
+  color: tc('foreground', 'light3');
+}

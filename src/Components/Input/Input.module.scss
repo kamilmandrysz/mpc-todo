@@ -1,0 +1,51 @@
+@import 'Styles/partials/_variables';
+
+.InputWrapper {
+  position: relative;
+}
+
+.Input {
+  display: block;
+  width: 100%;
+  height: calcrem(40px);
+  padding: 0 calcrem(16px);
+  border: 1px solid tc('foreground', 'light2');
+  border-radius: calcrem(8px);
+  margin: 0;
+  color: tc('foreground', 'dark1');
+  background-color: #fff;
+  outline: 0;
+  font-size: calcrem(14px);
+  font-weight: 400;
+  line-height: calcrem(16px);
+}
+
+.Input__label {
+  font-size: calcrem(14px);
+  line-height: calcrem(16px);
+}
+
+.Input__search {
+  &::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: tc('foreground', 'dark1');
+    opacity: 1; /* Firefox */
+  }
+
+  &:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: tc('foreground', 'dark1');
+  }
+
+  &::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: tc('foreground', 'dark1');
+  }
+}
+
+.Input__feedback {
+  color: tc('foreground', 'error');
+  font-size: calcrem(14px);
+  line-height: calcrem(16px);
+  margin-top: calcrem(8px);
+}

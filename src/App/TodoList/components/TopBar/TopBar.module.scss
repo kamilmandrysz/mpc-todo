@@ -1,0 +1,22 @@
+@import 'Styles/partials/_variables';
+
+.TopBar {
+  z-index: 1;
+  background-color: tc('primary', 'orange');
+  border: calcrem(1px) solid tc('foreground', 'dark');
+  border-top-left-radius: calcrem(5px);
+  border-top-right-radius: calcrem(5px);
+  box-shadow: 0 calcrem(8px) calcrem(10px) 0 rgba(0, 0, 0, 0.1);
+
+  h3 {
+    font-size: calcrem(20px);
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  svg {
+    fill: #fff;
+    transition: fill 0.2s ease;
+  }
+}

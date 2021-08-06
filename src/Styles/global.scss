@@ -1,0 +1,11 @@
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-utilities';
+@import '~bootstrap/scss/bootstrap-grid';
+@import '~bootstrap/scss/bootstrap';
+
+@import 'Styles/partials/_base';
+@import 'Styles/partials/_fonts';
+@import 'Styles/partials/_variables';
+@import '~react-redux-toastr/src/styles/animation.scss';
+
+@import 'Styles/components/toastr';

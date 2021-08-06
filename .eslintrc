@@ -1,0 +1,39 @@
+{
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "parser": "babel-eslint",
+  "extends": ["airbnb", "airbnb/hooks", "plugin:prettier/recommended", "prettier/react"],
+  "plugins": ["babel", "import"],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["src"]
+      }
+    }
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "babel/no-unused-expressions": 1,
+    "camelcase": "off",
+    "func-names": "off",
+    "import/first": "error",
+    "import/prefer-default-export": 0,
+    "no-console": "warn",
+    "no-eval": "error",
+    "no-nested-ternary": "off",
+    "no-param-reassign": "off",
+    "no-plusplus": "off",
+    "no-unused-expressions": 1,
+    "react/forbid-prop-types": 0,
+    "react/jsx-props-no-spreading": 0,
+    "no-unused-vars": "warn",
+    "consistent-return": "warn",
+    "no-template-curly-in-string": "off"
+  }
+}

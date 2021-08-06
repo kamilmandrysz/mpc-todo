@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'Zona Pro';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Zona Pro Bold'), local('ZonaPro-Bold'), url('../../Assets/fonts/ZonaPro-Bold.woff2') format('woff2'),
+    url('../../Assets/fonts/ZonaPro-Bold.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zona Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Zona Pro Regular'), local('ZonaPro-Regular'),
+    url('../../Assets/fonts/ZonaPro-Regular.woff2') format('woff2'),
+    url('../../Assets/fonts/ZonaPro-Regular.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zona Pro';
+  font-style: normal;
+  font-weight: 100;
+  src: local('Zona Pro ExtraLight'), local('ZonaPro-ExtraLight'),
+    url('../../Assets/fonts/ZonaPro-ExtraLight.woff2') format('woff2'),
+    url('../../Assets/fonts/ZonaPro-ExtraLight.woff') format('woff');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Zona Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Zona Pro SemiBold'), local('ZonaPro-SemiBold'),
+    url('../../Assets/fonts/ZonaPro-SemiBold.woff2') format('woff2'),
+    url('../../Assets/fonts/ZonaPro-SemiBold.woff') format('woff');
+  font-display: swap;
+}
